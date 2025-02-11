@@ -4,11 +4,11 @@ This is my life, controlling PHP and Perl scripts.
 """
 
 import argparse
-import datetime
 import os
 import subprocess
 import sys
 import time
+from datetime import timedelta
 
 import requests
 from pyiem.util import exponential_backoff, logger, utc
@@ -340,7 +340,7 @@ def main():
     workflow(args, model, valid, args.backfill)
     # Check previous deltas to see if we need to reprocess
     for delta in [6, 12, 18, 24]:
-        valid2 = valid - datetime.timedelta(hours=delta)
+        valid2 = valid - timedelta(hours=delta)
         testfn = valid2.strftime(
             "/isu/mtarchive/data/%Y/%m/%d/bufkit/"
         ) + get_archive_bufkit_filename(model, valid2, "kdsm")
