@@ -111,9 +111,9 @@
 000240   46.420   -86.650  P53   11  0 MUNISING                         MI       187    0 Usr Rqst 10-11
 000241   39.160   -89.670  K3LF  11  0 LITCHFIELD                       IL       210    0 Usr Rqst 11-11
 000247   44.050  -101.600  PHP   10  0 PHILIP AIRPORT                   SD       673    0 Weiss 2-99
-000251   43.580   -86.240  KLDM  12  0 LUDINGTON                        MI       244    0 KGRR 1-02
-000252   43.430   -85.300  KRQB  12  0 BIG RAPIDS                       MI       276    0 KGRR 1-02
-000253   43.370   -84.440  KMOP  12  0 MOUNT PLEASANT                   MI       213    0 KGRR 1-02
+000251   43.960   -85.300  KLDM  12  0 LUDINGTON                        MI       244    0 KGRR 1-02
+000252   43.730   -85.510  KRQB  12  0 BIG RAPIDS                       MI       276    0 KGRR 1-02
+000253   43.620   -84.740  KMOP  12  0 MOUNT PLEASANT                   MI       213    0 KGRR 1-02
 000254   34.380  -104.230  FTSR  12  0 FORT SUMNER                      NM       1231   0 Usr Rqst 4-02
 000255   46.700   -48.000  WTRO  21  0 WHITE ROSE OIL R Usr Rqst-03     IG       0      0
 000256   47.200   -55.100  MRYS  0   0 MARYSTOWN Usr Rqst-03            NF       0      0 Usr Rqst 12-03
