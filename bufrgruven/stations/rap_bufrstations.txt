@@ -109,9 +109,9 @@
 000240   46.420   -86.650  P53   11  0 MUNISING                         MI      187   USR RQST 10-11
 000241   39.160   -89.670  K3LF  11  0 LITCHFIELD                       IL      210   USR RQST 11-11
 000247   44.050  -101.600  PHP   10  0 PHILIP AIRPORT                   SD      673   WEISS 2-99
-000251   43.580   -86.240  KLDM  12  0 LUDINGTON                        MI      244   KGRR 1-02
-000252   43.430   -85.300  KRQB  12  0 BIG RAPIDS                       MI      920   KGRR 1-02
-000253   43.370   -84.440  KMOP  12  0 MOUNT PLEASANT                   MI      770   KGRR 1-02
+000251   43.960   -85.300  KLDM  12  0 LUDINGTON                        MI      244   KGRR 1-02
+000252   43.730   -85.510  KRQB  12  0 BIG RAPIDS                       MI      920   KGRR 1-02
+000253   43.620   -84.740  KMOP  12  0 MOUNT PLEASANT                   MI      770   KGRR 1-02
 000254   34.380  -104.230  FTSR  12  0 FORT SUMNER                      NM      123   USR RQST 4-02
 000255   46.700   -48.000  WTRO  21  0 WHITE ROSE OIL RIG               AO        0   USR RQST 12-03
 000256   47.200   -55.100  MRYS  00  0 MARYSTOWN                        NF        0   USR RQST 12-03
@@ -274,10 +274,82 @@
 000527   37.200  -112.990  ZION  12  0 ZION NTL PARK                    UT     1197   USR RQST 11-19
 000528   38.290  -111.260  CPRF  12  0 CAPITOL REEF NTL PARK            UT     1672   USR RQST 11-19
 000529   38.740  -112.100  KRIF  12  0 RICHFIELD MUNI                   UT     1615   USR RQST 11-19
+000530   41.240   -72.120  LIW   21  0 NEAR LONG ISL TWIN FK            NY     9999   Usr Rqst 5-23
+000531   32.700   -80.000  CEA   11  0 CHARLESTON EXEC ARPT             SC        6   Usr Rqst 5-23
+000532   47.910   -89.140  WINM  11  0 WINDIGO                          MI      293   Usr Rqst 5-23
+000533   46.670   -88.350  HERM  11  0 HERMAN                           MI      530   Usr Rqst 5-23
+000534   45.240  -122.770  KUAO  11  0 AURORA AIRPORT                   OR       59   Usr Rqst 5-23
+000535   20.790  -156.010  PHHN  11  0 HANA AIRPORT                     HI       24   Usr Rqst 5-23
+000536   20.710  -156.250  HLKL  11  0 HALEAKALA SUMMIT                 HI     3055   Usr Rqst 5-23
+000537   19.820  -155.470  MKEA  11  0 MAUNA KEA SUMMIT                 HI     4207   Usr Rqst 5-23
+000538   22.040  -159.780  PHBK  11  0 BARKING SANDS                    HI        7   Usr Rqst 5-23
+000539   22.270  -155.860  PHUP  11  0 UPOLU AIRPORT                    HI       29   Usr Rqst 5-23
+000540   19.470  -155.590  MLOA  11  0 MAUNA LOA SUMMIT                 HI     4169   Usr Rqst 5-23
+000541   28.200  -177.380  PMDY  11  0 HENDERSON FIELD                  HI        5   Usr Rqst 5-23
+000542   22.210  -159.440  HI01  11  0 PRINCEVILLE AIRPORT              HI      105   Usr Rqst 5-23
+000543   21.450  -157.770  PHNG  11  0 KANEOHE BAY MCAS                 HI        7   Usr Rqst 5-23
+000544   19.100  -155.570  SCPE  11  0 SOUTH CAPE                       HI      355   Usr Rqst 5-23
+000545   38.430   -79.840  GBO   11  0 GREEN BANK OBSERVATORY           WV      807   Usr Rqst 5-23
+000546   44.850   -74.330  MALO  11  0 MALONE                           NY      240   Usr Rqst 5-23
+000547   44.560   -73.330  CLCR  21  0 COLCHESTER REEF                  VT       29   Usr Rqst 5-23
+000548   45.000   -73.330  ALBU  21  0 ALBAUGH                          VT       38   Usr Rqst 5-23
+000549   43.600   -72.820  KLGN  11  0 KILLINGTON PEAK                  VT     1289   Usr Rqst 5-23
+000550   44.590   -72.920  NUND  11  0 NORTH UNDERHILL                  VT      315   Usr Rqst 5-23
+000551   43.980   -73.030  RIPT  11  0 RIPTON                           VT      512   Usr Rqst 5-23
+000552   33.900   -87.310  KJFX  11  0 JASPER                           AL      100   Usr Rqst 5-23
+000553   32.910   -85.960  KALX  11  0 ALEXANDER CITY                   AL      209   Usr Rqst 5-23
+000554   32.700   -80.000  KJZI  11  0 CHARLESTON EXEC ARPT             SC        6   Usr Rqst 5-23
+000555   42.570   -77.710  KDSV  11  0 DANSVILLE                        NY      215   Usr Rqst 5-23
+000556   28.850   -80.230  NCPE  21  0 NORTH CAPE                       FL     9999   Usr Rqst 5-23
+000557   30.020   -80.250  JAXX  21  0 OFF JACKSONVILLE                 FL     9999   Usr Rqst 5-23
+000558   29.800   -87.500  PENX  21  0 OFF PENSACOLA                    FL     9999   Usr Rqst 5-23
+000559   28.500   -83.750  TPXX  21  0 OFF TAMPA                        FL     9999   Usr Rqst 5-23
+000560   29.250   -84.200  TLHX  21  0 OFF TALLAHASSEE                  FL     9999   Usr Rqst 5-23
+000561   29.800   -80.600  DABX  21  0 OFF DAYTONA BEACH                FL     9999   Usr Rqst 5-23
+000562   29.770   -86.030  PANX  21  0 OFF PANAMA CITY                  FL     9999   Usr Rqst 5-23
+000563   44.640  -123.060  KS12  11  0 ALBANY                           OR       60   Usr Rqst 5-23
+000564   45.520  -121.590  PRKD  11  0 PARKDALE                         OR      526   Usr Rqst 5-23
+000565   46.100  -124.500  OC29  21  0 BUOY 29                          OR     9999   Usr Rqst 5-23
+000566   44.600  -124.500  OC50  21  0 BUOY 50                          OR     9999   Usr Rqst 5-23
+000567   45.900  -125.800  OC89  21  0 BUOY 89                          OR     9999   Usr Rqst 5-23
+000568   37.630   -84.330  KRGA  10  0 CENTAL KY REGION ARPT            KY      305   Usr Rqst 8-24
+000569   38.810  -106.120  AEJ   10  0 BUENA VISTA AIRPORT              CO     2422   Usr Rqst 8-24
+000570   40.380  -105.520  ESTP  10  0 ESTES PARK                       CO     2295   Usr Rqst 8-24
+000571   38.430  -105.100  CANO  10  0 CANON CITY                       CO     1658   Usr Rqst 8-24
+000572   41.530   -85.790  GSH   10  0 GOSHEN MUNICIPAL ARPT            IN      252   Usr Rqst 8-24
+000573   41.640   -85.080  ANQ   10  0 ANGOLA AIRPORT                   IN      303   Usr Rqst 8-24
+000574   38.000  -101.750  SYSE  10  0 SYRACUSE, KS                     KS     1013   Usr Rqst 8-24
+000575   42.180   -71.170  OWD   10  0 NORWOOD MEMORIAL ARPT            MA       15   Usr Rqst 8-24
+000576   42.550   -71.760  FIT   10  0 FITCHBURG_(ASOS)                 MA      106   Usr Rqst 8-24
+000577   42.590   -72.600  GRNF  10  0 GREENFIELD                       MA       74   Usr Rqst 8-24
+000578   42.620   -70.670  GLOU  10  0 GLOUCESTER                       MA       16   Usr Rqst 8-24
+000579   41.870   -71.020  TAN   10  0 TAUNTON_(ASOS)                   MA       13   Usr Rqst 8-24
+000580   42.330   -72.630  NTHH  10  0 NORTHHAMPTON                     MA       41   Usr Rqst 8-24
+000581   39.410   -77.370  FDK   10  0 FREDERICK_MUNI_APT               MD       92   Usr Rqst 8-24
+000582   39.170   -77.170  GAI   10  0 GAITHERSBURG                     MD      116   Usr Rqst 8-24
+000583   43.990   -70.950  IZG   10  0 FRYEBERG_(ASOS)                  ME      135   Usr Rqst 8-24
+000584   43.560   -83.340  NERA  10  0 NEW ERA, MI                      MI      230   Usr Rqst 8-24
+000585   42.220   -83.750  ARB   10  0 ANN_ARBOR_MUNI_(ASOS)            MI      256   Usr Rqst 8-24
+000586   47.220   -93.520  GPZ   10  0 GRAND_RAPIDS(AWOS)               MN      413   Usr Rqst 8-24
+000587   45.700   -92.950  ROS   10  0 RUSH_CITY                        MN      281   Usr Rqst 8-24
+000588   45.160   -93.840  8Y2   10  0 BUFFALO_MUNI_ARPT                MN      295   Usr Rqst 8-24
+000589   42.150   -93.220  ANE   10  0 MINNEAPOLIS/BLAINE               MN      278   Usr Rqst 8-24
+000590   47.840   -90.380  CKC   10  0 GRAND_MARAIS/COOK_CO             MN      548   Usr Rqst 8-24
+000591   46.480  -108.540  KRPX  10  0 ROUNDUP                          MT     1064   Usr Rqst 8-24
+000592   44.030   -71.490  KCMA  10  0 KANCAMAGUS PASS                  NH      872   Usr Rqst 8-24
+000593   36.450  -105.670  SKX   10  0 TAOS_MUNI_APT(AWOS)              NM     2161   Usr Rqst 8-24
+000594   35.880  -106.270  LAM   10  0 LOS_ALAMOS_AIRPORT               NM     2186   Usr Rqst 8-24
+000595   41.210   -81.250  29G   10  0 RAVENNA_PORTAGE_CO_APT           NM      365   Usr Rqst 8-24
+000596   40.200   -84.530  VES   10  0 VERSAILLES_DARK_CO_APT           OH      307   Usr Rqst 8-24
+000597   39.930   -76.880  THV   10  0 YORK_AIRPORT_(ASOS)              PA      148   Usr Rqst 8-24
+000598   40.230   -75.550  PTTO  10  0 POTTSTOWN, PA                    PA       92   Usr Rqst 8-24
+000599   42.890   -73.040  WDFD  10  0 WOODFORD ST PARK                 VT      703   Usr Rqst 8-24
+000600   46.550   -90.920  ASWI  10  0 ASHLAND AIRPORT                  WI      251   Usr Rqst 8-24
 000601   37.200  -118.800  C01   12  0 NEAR YOSEMITE                    CA      293   GCIP 5-98
 000602   47.610  -103.260  C02   12  0 WOLFORD                          ND      762   GCIP 5-94
 000603   37.800   -97.010  C03   12  0 TOWANDA                          KS      390   GCIP 5-94
 000604   34.600   -94.300  C04   12  0 NEAR MENA                        AR      322   GCIP 5-94
+000605   38.270   -78.900  SHD   10  0 STAUNTON/SHENANDOAH              VA      366   Usr Rqst 8-24
 000606   37.900   -95.200  C06   12  0 NEAR MORAN                       KS      337   GCIP 5-94
 000607   38.500  -101.500  C07   12  0 NEAR BRANDON                     KS      103   GCIP 5-94
 000608   37.400  -105.200  C08   12  0 NEAR WHISKEY CRK                 CO      319   GCIP 5-94
@@ -287,6 +359,8 @@
 000612   33.700   -97.400  C12   12  0 NEAR MUENSTER                    TX      343   GCIP 5-94
 000613   37.100   -92.300  C13   12  0 NEAR MTN GROVE                   MO      456   GCIP 5-94
 000614   41.000  -107.000  C14   12  0 NORTHERN ROCKIES                 CO      250   GCIP 5-94
+000615   37.510  -122.500  KHAF  10  0 HALF MOON BAY APT                CA       20   Usr Rqst 8-24
+000616   40.620  -111.990  KSVR  10  0 SOUTH VALLEY APT                 UT     1404   Usr Rqst 8-24
 000617   46.250  -114.150  HMM   12  0 HAMILTON                         MT        0   USR RQST 8-11
 000618   47.000  -112.500  C18   12  0 NORTHERN ROCKIES                 MT      148   GCIP 5-94
 000619   49.000  -114.000  C19   12  0 NORTHERN ROCKIES                 MT      155   GCIP 5-94
@@ -634,6 +708,21 @@
 000993   38.790  -108.060  KAJZ  11  0 DELTA                            CO     1583   USR RQST 2-18
 000994   40.350  -106.700  KC07  11  0 WALTON PEAK                      CO     3218   USR RQST 2-18
 000995   29.300   -88.840  KMIS  20  0 MP 140B OIL PLATFORM             --        0   USR RQST 2-18
+001007   34.850  -111.790  KSEZ  10  0 SEDONA_AIRPORT                   AZ     1472   Usr Rqst 8/24
+001008   34.260  -111.340  KPAN  10  0 PAYSON_AIRPORT                   AZ     1572   Usr Rqst 8/24
+001009   34.130  -109.310  KJTC  10  0 SPRINGERVILLE MUNI APT           AZ     2150   Usr Rqst 8/24
+001010   35.310  -112.190  KCMR  10  0 WILLIAMS                         AZ     2039   Usr Rqst 8/24
+001011   35.650  -109.070  KRQE  10  0 WINDOW_ROCK_(ASOS)               AZ     2054   Usr Rqst 8/24
+001012   36.140  -111.240  TUBA  10  0 TUBA CITY                        AZ     1499   Usr Rqst 8/24
+001013   36.150  -109.550  CHN   10  0 CHINLE                           AZ     1687   Usr Rqst 8/24
+001014   36.710  -112.220  JLK   10  0 JACOB LAKE                       AZ     2897   Usr Rqst 8/24
+001015   36.730  -110.250  KAYA  10  0 KAYENTA                          AZ     1716   Usr Rqst 8/24
+001016   36.240  -112.690  SUP   10  0 SUPAI                            AZ     1012   Usr Rqst 8/24
+001017   35.530  -113.430  PCHS  10  0 PEACH SPRINGS                    AZ     1478   Usr Rqst 8/24
+001018   34.580  -113.180  BDD   10  0 BAGDAD                           AZ     1189   Usr Rqst 8/24
+001019   35.790  -110.510  SMA   10  0 SECOND MESA                      AZ     1737   Usr Rqst 8/24
+001020   36.920  -109.090  TNP   10  0 TEEC NOS POS                     AZ     1592   Usr Rqst 8/24
+001021   36.470  -109.150  BOP   10  0 BUFFALO PASS                     AZ     2496   Usr Rqst 8/24
 021982   70.970  -178.530  U#2   10  0 OSTROV VRANGELYA                 RU        3   UA ALA23 3-93
 025173   68.920  -179.480  UHMI  10  0 MYS SCHMIDT                      --        7   UA 2-95
 025399   66.170  -169.830  U#C   10  0 MYS WELLEN                       --        7   UA 2-95
@@ -925,6 +1014,7 @@
 722250   32.330   -84.830  LSF   10  0 FORT BENNING                     GA      130   FOUS
 722255   32.520   -84.930  KCSG  10  0 COLUMBUS METRO ARPT              GA      121   TAF 2-99
 722260   32.300   -86.400  KMGM  10  0 MONTGOMERY/DANNELLY              AL       62   3-93 TAF 2-99
+722267   31.860   -86.010  KTOI  11  0 TROY_MUNICIPAL                    A      121   Usr Rqst 5-23
 722268   31.320   -85.450  KDHN  10  0 DOTHAN MUNICIPAL                 AL      122   TAF 2-99
 722280   33.570   -86.750  KBHM  10  0 BIRMINGHAM MUNI                  AL      192   TAF 2-99
 722286   33.220   -87.620  KTCL  10  0 TUSCALOOSA MUNI                  AL       52   TAF 2-99
@@ -1181,6 +1271,7 @@
 724450   38.820   -92.220  KCOU  12  0 COLUMBIA REGIONAL                MO      274   TAF 2-99
 724454   37.770   -90.430  KFAM  10  0 FARMINGTON AIRPORT               MO      288   MOS/WEISS 2-99
 724456   38.130   -91.770  KVIH  11  0 ROLLA/VICHY AIRPORT              MO      350   USR RQST 11-11
+724458   38.590   -92.160  KJEF  11  0 JEFFERSON CITY ARPT              M0      169   Usr Rqst 5-23
 724459   38.100   -92.550  KAIZ  11  0 OSAGE BEACH                      MO      265   USR RQST 2-18
 724460   39.320   -94.720  KMCI  10  0 KANSAS CITY INTL                 MO      312   TAF 2-99
 724463   39.120   -94.600  KMKC  10  0 KANSAS CITY MUNI                 MO      231   TAF 2-99
@@ -1516,6 +1607,7 @@
 726930   44.120  -123.220  KEUG  10  0 EUGENE/MAHLON SWEET              OR      114   WRGN 8-97 TAF 2-99
 726940   44.920  -123.000  KSLE  12  0 SALEM/MCNARY                     OR       61   UA NA110 TAF 2-99
 726950   44.580  -124.060  ONP   10  0 NEWPORT                          OR       37   ETL PROFILER 4-03
+726963   45.420  -123.820  KTMK  11  0 TILLAMOOK                         O       11   Usr Rqst 5-23
 726980   45.600  -122.600  KPDX  10  0 PORTLAND INTL ARPT               OR       12   TAF 2-99
 726985   45.550  -122.400  KTTD  10  0 PORTLAND/TROUTDALE               OR       11   TAF 2-99
 726986   45.530  -122.950  KHIO  10  0 PORTLAND/HILLSBORO               OR       62   TAF 2-99
