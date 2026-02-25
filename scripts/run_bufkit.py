@@ -342,7 +342,7 @@ def main():
     for delta in [6, 12, 18, 24]:
         valid2 = valid - timedelta(hours=delta)
         testfn = valid2.strftime(
-            "/isu/mtarchive/data/%Y/%m/%d/bufkit/"
+            "/mnt/mtarchive2/data/%Y/%m/%d/bufkit/"
         ) + get_archive_bufkit_filename(model, valid2, "kdsm")
         if not os.path.isfile(testfn):
             LOG.info("Rerunning %s due to missing %s", valid2, testfn)
