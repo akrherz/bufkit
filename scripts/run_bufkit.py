@@ -52,9 +52,10 @@ def download_bufrsnd(tmpdir, model, valid, extra=""):
         extra = ""
     while not os.path.isfile(localfn) and attempt < 60:
         # Flip/flop between the two services
-        p1 = f"{valid:%H}/" if model == "gfs" else ""
+        p1 = f"{valid:%H}/" if model in ("gfs", "rrfs") else ""
+        shim = "para" if model1 == "rrfs" else "prod"
         url = (
-            f"{SERVICES[attempt % 2]}/{model1}/prod/{model1}.{valid:%Y%m%d}/"
+            f"{SERVICES[attempt % 2]}/{model1}/{shim}/{model1}.{valid:%Y%m%d}/"
             f"{p1}{'atmos/' if model1 == 'gfs' else ''}"
             f"{dextra}{model1}.t{valid:%H}z."
             f"{'tm00.' if model1 == 'nam' else ''}bufrsnd{extra}.tar{crazy}.gz"
