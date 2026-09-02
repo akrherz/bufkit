@@ -121,7 +121,7 @@ def run_bufrgruven(tmpdir, model, valid, sid, icao, modelsrc):
         f"--nfs {tmpdir}/extracted/bufr.STNM.YYYYMMDDCC "
         f"--date {valid:%Y%m%d} --cycle {valid:%H} --noascii "
         f"--metdat {tmpdir} "
-        f"--stations {icao} --nozipit"
+        f"--stations {icao} --nozipit --forcep"
     )
     with subprocess.Popen(
         cmd, shell=True, stderr=subprocess.PIPE, stdout=subprocess.PIPE
